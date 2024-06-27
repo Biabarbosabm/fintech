@@ -1,0 +1,94 @@
+* {
+    font-family:  "Montserrat", sans-serif;
+}
+
+:root {
+    --detalhe: #ED5804;
+    --fundo: #03122A;
+    --btn: #ded6d67a
+    --bg-blue-3: #70A2EE
+    --margin-top: 100px;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+.btn {
+    background-color: var(--fundo)
+}
+.btn:hover {
+    background-color: var(--#ded6d67a)
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--detalhe);
+    font-weight: 500;
+}
+
+.logo-icon {
+    color: var(--detalhe);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.naveg-cd a {
+    font-weight: 400;
+}
+
+.naveg-cd:hover {
+    background: #ded6d67a
+}
+.my-menu {
+    color: var(--detalhe);
+    font-weight: 300;
+}
+
+.bg-fundo {
+    background-color: var(--fundo);
+    width: 100;
+    ;
+}
+
+.sobre {
+    min-height: 75vh;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+    background-color: #03122A;
+    color:white
+}
+
+.card:hover {
+    background-color: #ded6d67a;
+    color: var(--fundo)
+}
+
+.icon-int {
+    font-size: 2rem;
+    color: var(--detalhe);
+    transition: .5s;
+}
+
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
